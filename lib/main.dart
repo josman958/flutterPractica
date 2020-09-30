@@ -3,7 +3,8 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(new Center(
       child: new Directionality(
-          textDirection: TextDirection.ltr, child: new Text("Hellos"))));
+          textDirection: TextDirection.ltr,
+          child: new Text("Hola a todos les saluda Jorge"))));
 }
 
 // import 'package:flutter/material.dart';
