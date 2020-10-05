@@ -1,13 +1,23 @@
 import 'package:flutter/material.dart';
+import 'home.dart';
 
 void main() {
-  runApp(new Center(
-      child: new Directionality(
-          textDirection: TextDirection.ltr,
-          child: new Text("Hola a todos les saluda Jorge"))));
+  runApp(Aplicacion());
 }
 
-// import 'package:flutter/material.dart';
+//void main() => runApp(Aplicacion());
+
+class Aplicacion extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+        title: 'Logo',
+        home: Home(),
+        theme: ThemeData(
+            primaryColor: Color(0xFF2F008E), //son colores en hexadecimal
+            accentColor: Color(0xFFFDD303)));
+  }
+}
 
 // void main() {
 //   runApp(MyApp());
