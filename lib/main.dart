@@ -11,11 +11,9 @@ class Aplicacion extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title: 'Logo',
-        home: Home(),
-        theme: ThemeData(
-            primaryColor: Color(0xFF2F008E), //son colores en hexadecimal
-            accentColor: Color(0xFFFDD303)));
+      title: 'Logo',
+      home: Home(),
+    );
   }
 }
 
