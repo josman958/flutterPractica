@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'home.dart';
+import 'sites/modelo1.dart';
 
 void main() {
   runApp(Aplicacion());
@@ -12,7 +13,7 @@ class Aplicacion extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Logo',
-      home: Home(),
+      home: Modelo1(),
     );
   }
 }

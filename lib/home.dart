@@ -23,9 +23,6 @@ class Home extends StatelessWidget {
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: <Widget>[
-          Image(
-            image: AssetImage('assets/img/comida-peruana.jpg'),
-          ),
           Text(
             'titulo',
             textAlign: TextAlign.center,
